@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>行動網頁期中考</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+    .carousel-item img {
+      width: 100%;
+      aspect-ratio: 1280 / 500;
+      object-fit: cover;
+    }
+    .card-img-top {
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-4">
+
+    <h1 class="h5 mb-3">行動網頁期中考</h1>
+
+    <div id="mainCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/id/151/1200/450" alt="Alpine nights" width="1280" height="500">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Alpine nights</h5>
+            <p>Cool air, quiet trails, and skies full of stars.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/id/110/1200/450" alt="Coastal living" width="1280" height="500">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Let the sea set the pace.</h5>
+            <p>Wander pastel streets above the bright blue sea.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/id/10/1200/450" alt="Lakeside calm" width="1280" height="500">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lakeside calm</h5>
+            <p>A slower kind of day, right by the water.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/id/11/1200/450" alt="Blue escape" width="1280" height="500">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Blue escape</h5>
+            <p>Follow the water to your own quiet corner.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <h2 class="h5 mb-3">Places to get lost in</h2>
+    <div class="row row-cols-4 g-3">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/151/1200/450" class="card-img-top" alt="Alpine nights">
+          <div class="card-body">
+            <h5 class="card-title">Alpine nights</h5>
+            <p class="card-text small">Cool air, quiet trails, and skies full of stars.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/110/1200/450" class="card-img-top" alt="Coastal color">
+          <div class="card-body">
+            <h5 class="card-title">Coastal color</h5>
+            <p class="card-text small">Wander pastel streets above the bright blue sea.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/10/1200/450" class="card-img-top" alt="Lakeside calm">
+          <div class="card-body">
+            <h5 class="card-title">Lakeside calm</h5>
+            <p class="card-text small">A slower kind of day, right by the water.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/11/1200/450" class="card-img-top" alt="Blue escape">
+          <div class="card-body">
+            <h5 class="card-title">Blue escape</h5>
+            <p class="card-text small">Follow the water to your own quiet corner.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <hr class="mt-5">
+    <footer class="pb-3 text-secondary small">
+      UD2A 114211004 洪岱禾
+    </footer>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
